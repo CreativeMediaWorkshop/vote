@@ -1,0 +1,10 @@
+<p>
+  <strong>Signer:</strong>
+  <%= sign.owner %>
+</p>
+ 
+<p>
+  <%= link_to 'Destroy Comment', [sign.article, sign],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>
